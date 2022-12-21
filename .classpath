@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/jdeli-trial.jar"/>
+	<classpathentry kind="lib" path="out/artifacts/RemoteDesktop_jar/RemoteDesktop.jar"/>
+	<classpathentry kind="output" path="out/production/RemoteDesktop"/>
+</classpath>

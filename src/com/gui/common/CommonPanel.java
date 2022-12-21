@@ -71,7 +71,7 @@ public class CommonPanel extends JPanel {
 
         // TODO: style port_text
         this.port_text.setBounds(240, 125, 230, 40);
-        this.port_text.setText("9999");
+        this.port_text.setText("8888");
         this.add(this.port_text);
 
         // TODO: style pass_label

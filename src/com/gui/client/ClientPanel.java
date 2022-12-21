@@ -147,6 +147,7 @@ public class ClientPanel extends JPanel {
                     if(!this.isFormatIpv4(host)) throw new Exception("Wrong format IPV4");
 
                     // TODO: start connect
+                    this.common_bus.startListeningOnServer(host, port, password);
                     this.common_bus.startConnectingToServer(host, port, password);
 
                     // TODO: show remote screen
@@ -165,6 +166,7 @@ public class ClientPanel extends JPanel {
                     });
                 }
                 catch(Exception exception) {
+                	exception.printStackTrace();
                     JOptionPane.showMessageDialog(this, "Can't connect to server:\n" + exception.getMessage());
                 }
                 this.setEnabled(true);
